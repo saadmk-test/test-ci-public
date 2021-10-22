@@ -20,3 +20,5 @@ jobs:
 
       - name: changelog-ci
         uses: saadmk11/changelog-ci@other-changes-config
+        with:
+          config_file: changelog-ci-config.json
