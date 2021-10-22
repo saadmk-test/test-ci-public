@@ -6,7 +6,7 @@
   "header_prefix": "Release:",
   "pull_request_title_regex": "^Release",
   "unlabeled_group_title": "New Changes",
-  "include_unlabeled_changes": true,
+  "include_unlabeled_changes": false,
   "group_config": [
     {
       "title": "Bug Fixes",
