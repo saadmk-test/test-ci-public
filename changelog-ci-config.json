@@ -2,7 +2,7 @@
 {
   "commit_changelog": true,
   "comment_changelog": true,
-  "changelog_type": "pull_request",
+  "changelog_type": "commit_message",
   "header_prefix": "Release:",
   "pull_request_title_regex": "^Release",
   "unlabeled_group_title": "New Changes",
