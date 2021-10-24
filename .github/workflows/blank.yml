@@ -28,8 +28,8 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: changelog-ci
-        uses: saadmk11/changelog-ci@whats-new
+        uses: saadmk11/changelog-ci@v1.0.0
         with:
           config_file: changelog-ci-config.json
-          release_version: ${{ github.event.release.tag_name || github.event.inputs.release_version }}
+          release_version: ${{ github.event.inputs.release_version }}
           changelog_filename: 'CHANGELOG.rst'
